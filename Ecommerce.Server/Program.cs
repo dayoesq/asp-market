@@ -1,3 +1,5 @@
+using Ecommerce.Business.Repository;
+using Ecommerce.Business.Repository.IRepository;
 using Ecommerce.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();

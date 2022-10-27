@@ -1,0 +1,12 @@
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/bin/Debug/net6.0/Ecommerce.Common.deps.json
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/bin/Debug/net6.0/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/bin/Debug/net6.0/Ecommerce.Common.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.csproj.AssemblyReference.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.AssemblyInfoInputs.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.AssemblyInfo.cs
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.csproj.CoreCompileInputs.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/refint/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/Ecommerce.Common.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/obj/Debug/net6.0/ref/Ecommerce.Common.dll

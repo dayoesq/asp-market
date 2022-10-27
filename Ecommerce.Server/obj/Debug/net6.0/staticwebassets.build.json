@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mlqDfA3TmkpyUSwo3oEraFskebrI9y6rvb5vN94KUwk=",
+  "Hash": "d4HeSq4qauWeDm+Mxb4oDqg5KaMEL/C3JKFiCuG38BM=",
   "Source": "Ecommerce.Server",
   "BasePath": "_content/Ecommerce.Server",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/js/common.js",
+      "SourceId": "Ecommerce.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
+      "BasePath": "_content/Ecommerce.Server",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/common.js"
     }
   ]
 }

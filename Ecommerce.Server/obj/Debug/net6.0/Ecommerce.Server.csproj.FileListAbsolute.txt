@@ -83,3 +83,11 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.Text.Json.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Business.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Model.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Business.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Common.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Ecommerce.Model.pdb
