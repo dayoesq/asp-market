@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "fEC7L//M1TX3OiMns5fDI0NUMd1iTkvMrC3TggBZG7BeU9Do7+Ut4gDnS9NT7Kw+WzAa1NC9skFgAoZ3ObyjvQ==",
+  "dgSpecHash": "7seX7Foio9K7oWCNNqRU9qy2+qKW18KKbfb1UdBECAi4S/O35ilkygHByYu0YeNlXxPu/ZuX71PY5hB9Eb4y5w==",
   "success": true,
   "projectFilePath": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/Ecommerce.Server.csproj",
   "expectedPackageFiles": [
+    "/Users/oladapooladayoolalekan/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/oladapooladayoolalekan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.data.sqlclient/5.0.0/microsoft.data.sqlclient.5.0.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.0/microsoft.data.sqlclient.sni.runtime.5.0.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.entityframeworkcore/7.0.0-rc.2.22472.11/microsoft.entityframeworkcore.7.0.0-rc.2.22472.11.nupkg.sha512",
