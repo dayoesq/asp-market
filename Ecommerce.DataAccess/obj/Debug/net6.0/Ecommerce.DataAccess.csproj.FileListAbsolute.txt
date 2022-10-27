@@ -1,0 +1,14 @@
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.DataAccess.deps.json
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.DataAccess.runtimeconfig.json
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.DataAccess.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.DataAccess.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.csproj.AssemblyReference.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.AssemblyInfoInputs.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.AssemblyInfo.cs
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.csproj.CoreCompileInputs.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/refint/Ecommerce.DataAccess.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.genruntimeconfig.cache
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/ref/Ecommerce.DataAccess.dll
