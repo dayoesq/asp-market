@@ -1,7 +1,9 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Model;
 
+[Index(nameof(Name), IsUnique=true)]
 public class CategoryDto
 {
     public int Id { get; set; }

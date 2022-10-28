@@ -745,6 +745,9 @@
         }
       },
       "Ecommerce.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-rc.2.22472.11"
+        },
         "runtime": {
           "Ecommerce.Model.dll": {}
         }

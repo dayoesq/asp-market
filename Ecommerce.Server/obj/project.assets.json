@@ -1217,6 +1217,9 @@
       "Ecommerce.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-rc.2.22472.11"
+        },
         "compile": {
           "bin/placeholder/Ecommerce.Model.dll": {}
         },

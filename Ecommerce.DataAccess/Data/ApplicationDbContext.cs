@@ -8,6 +8,12 @@ public class ApplicationDbContext : DbContext
     {
         
     }
-    
+
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.Entity<Category>()
+    //         .HasIndex(a => a.Name).IsUnique();
+    // }
+
     public DbSet<Category> Categories { get; set; }
 }

@@ -5,6 +5,7 @@ using Ecommerce.Common.Util;
 using Ecommerce.DataAccess;
 using Ecommerce.DataAccess.Data;
 using Ecommerce.Model;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Business.Repository;
@@ -20,15 +21,19 @@ public class CategoryRepository : ICategoryRepository
     }
     public async Task<CategoryDto> Create(CategoryDto categoryDto)
     {
-        var objExists =
-            await _dbContext.Categories.FirstOrDefaultAsync(a => a.Name == Util.Capitalize(categoryDto.Name));
-        if (objExists != null ) throw new ConstraintException("The category already exists!");
-        var obj = _mapper.Map<CategoryDto, Category>(categoryDto);
-        obj.CreatedAt = DateTime.UtcNow;
-        obj.Name = Util.Capitalize(obj.Name);
-        var addedObj = _dbContext.Categories.Add(obj);
-        await _dbContext.SaveChangesAsync();
-        return _mapper.Map<Category, CategoryDto>(addedObj.Entity);
+        try
+        {
+            var obj = _mapper.Map<CategoryDto, Category>(categoryDto);
+            obj.CreatedAt = DateTime.UtcNow;
+            obj.Name = Util.Capitalize(obj.Name);
+            var addedObj = _dbContext.Categories.Add(obj);
+            await _dbContext.SaveChangesAsync();
+            return _mapper.Map<Category, CategoryDto>(addedObj.Entity);
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
 
     }
 
