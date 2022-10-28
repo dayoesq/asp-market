@@ -1155,6 +1155,19 @@
             "rid": "win"
           }
         }
+      },
+      "Ecommerce.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-rc.2.22472.11"
+        },
+        "compile": {
+          "bin/placeholder/Ecommerce.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Model.dll": {}
+        }
       }
     }
   },
@@ -3500,10 +3513,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Ecommerce.Model/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Model/Ecommerce.Model.csproj",
+      "msbuildProject": "../Ecommerce.Model/Ecommerce.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Ecommerce.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0-rc.2.22472.11",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0-rc.2.22472.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0-rc.2.22472.11",
@@ -3535,7 +3554,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Model/Ecommerce.Model.csproj": {
+              "projectPath": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Model/Ecommerce.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

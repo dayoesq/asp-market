@@ -12,3 +12,6 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.pdb
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.genruntimeconfig.cache
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/ref/Ecommerce.DataAccess.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.Model.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/bin/Debug/net6.0/Ecommerce.Model.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.DataAccess/obj/Debug/net6.0/Ecommerce.DataAccess.csproj.CopyComplete

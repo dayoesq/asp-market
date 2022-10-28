@@ -1077,6 +1077,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Ecommerce.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0-rc.2.22472.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0-rc.2.22472.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0-rc.2.22472.11"
