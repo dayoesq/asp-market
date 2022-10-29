@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d4HeSq4qauWeDm+Mxb4oDqg5KaMEL/C3JKFiCuG38BM=",
+  "Hash": "75IyqjSuVCxLY7PytRRNpXxEgKR6n372QHXDQjhri8g=",
   "Source": "Ecommerce.Server",
   "BasePath": "_content/Ecommerce.Server",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/obj/Debug/net6.0/scopedcss/projectbundle/Ecommerce.Server.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/.DS_Store",
+      "SourceId": "Ecommerce.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
+      "BasePath": "_content/Ecommerce.Server",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/css/bootstrap/bootstrap.min.css",
@@ -270,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/default.jpeg",
+      "SourceId": "Ecommerce.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
+      "BasePath": "_content/Ecommerce.Server",
+      "RelativePath": "images/default.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/default.jpeg"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/js/common.js",

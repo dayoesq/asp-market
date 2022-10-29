@@ -78,7 +78,7 @@
 
     private void HandleDelete(int id)
     {
-        DeleteCategoryId=id;
+        DeleteCategoryId = id;
         JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
     }
 
@@ -91,6 +91,6 @@
             await LoadCategories();
             await JsRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
         }
-        IsLoading=false;
+        IsLoading = false;
     }
 }

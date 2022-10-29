@@ -1,0 +1,138 @@
+@page "/product"
+@using Ecommerce.Model
+@using Ecommerce.Server.Helper
+@inject IProductRepository ProductRepository
+@inject IJSRuntime JsRuntime
+@inject IFileUpload FileUpload
+@* @inject NavigationManager NavigationManager *@
+
+<DeleteModal IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete" Field="product" />
+<div class="row mt-4">
+    <div class="col-6">
+        <h4 class="card-title text-primary">Product List</h4>
+    </div>
+    <div class="col-4 offset-2">
+        <a href="product/create" class="btn btn-primary form-control">Add New Product </a>
+    </div>
+    <div class="col-12 p-3">
+        @if (Products.Any())
+        {
+            <table class="table table-bordered">
+                 <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Shop Favorites</th>
+                        <th>Customer Favorites</th>
+                        <th>Category</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var product in Products)
+                    {
+                        <tr>
+                            <td>
+                                @product.Name
+                            </td> 
+                            <th>
+                                <input type="checkbox" disabled checked="@product.ShopFavourites">
+                            </th> 
+                            <th>
+                                <input type="checkbox" disabled checked="@product.CustomerFavourites">
+                            </th>
+                            <th>
+                                @product.Category.Name
+                            </th>
+                            <td>
+                            <NavLink href="@($"product/edit/{product.Id}")" class="btn-primary btn">Edit</NavLink>
+                            <NavLink href="@($"product/price/{product.Id}")" class="btn-success btn">Price</NavLink>
+                            <button class="btn btn-danger" @onclick="() => HandleDelete(product.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            if (IsLoading)
+            {
+                <div class="text-center">Loading...</div>
+            }
+            else
+            {
+                //no records
+                <p>No recrods found.</p>
+            }
+        }
+    </div>
+</div>
+
+@code {
+    private IEnumerable<ProductDto> Products { get; set; } = new List<ProductDto>();
+    private bool IsLoading { get; set; }
+    private int DeleteProductId { get; set; }
+
+    // [CascadingParameter]
+    // public Task<AuthenticationState> AuthenticationState {  get;  set; }
+    //
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     var authState = await AuthenticationState;
+    //     if (!authState.User.Identity.IsAuthenticated)
+    //     {
+    //         var uri = new Uri(NavigationManager.Uri);
+    //         NavigationManager.NavigateTo($"/identity/account/login?returnUrl={uri.LocalPath}",forceLoad:true);
+    //     }
+    //     else
+    //     {
+    //         if (!authState.User.IsInRole(Tangy_Common.SD.Role_Admin))
+    //         {
+    //             NavigationManager.NavigateTo("/ErrorPage");
+    //         }
+    //     }
+    // }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadProducts();
+        }
+    }
+
+    private async Task LoadProducts()
+    {
+        IsLoading=true;
+        StateHasChanged();
+        Products = await ProductRepository.GetAll();
+        IsLoading=false;
+        StateHasChanged();
+    }
+
+    private void HandleDelete(int id)
+    {
+        DeleteProductId=id;
+        JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
+    }
+
+    private async Task ConfirmDelete(bool isConfirmed)
+    {
+        IsLoading = true;
+        if(isConfirmed && DeleteProductId != 0)
+        {
+            //delete
+            ProductDto product = await ProductRepository.Get(DeleteProductId);
+            if (!product.ImageUrl.Contains("default.png"))
+            {
+                FileUpload.DeleteFile(product.ImageUrl);
+
+            }
+            await ProductRepository.Delete(DeleteProductId);
+            await JsRuntime.ToasterSuccess("Product Deleted successfully");
+            await LoadProducts();
+            await JsRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
+        }
+        IsLoading = false;
+    }
+}
