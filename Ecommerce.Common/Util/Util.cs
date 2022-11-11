@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace Ecommerce.Common.Util;
 
-public class Util
+public static class Util
 {
     private static readonly TextInfo Text = CultureInfo.CurrentCulture.TextInfo;
     public static string Capitalize(string inputString)
