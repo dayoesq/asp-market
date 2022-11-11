@@ -5,6 +5,7 @@ using Ecommerce.DataAccess;
 using Ecommerce.DataAccess.Data;
 using Ecommerce.Model;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace Ecommerce.Business.Repository;
 
@@ -12,11 +13,13 @@ public class ProductRepository : IProductRepository
 {
     private readonly ApplicationDbContext _dbContext;
     private readonly IMapper _mapper;
+    private readonly ILogger<ProductRepository> _logger;
 
-    public ProductRepository(ApplicationDbContext dbContext, IMapper mapper)
+    public ProductRepository(ApplicationDbContext dbContext, IMapper mapper, ILogger<ProductRepository> logger)
     {
         _dbContext = dbContext;
         _mapper = mapper;
+        _logger = logger;
     }
 
     public async Task<ProductDto> Create(ProductDto productDto)
@@ -32,6 +35,7 @@ public class ProductRepository : IProductRepository
         }
         catch (Exception e)
         {
+            _logger.LogError("Product creation failed");
             throw new Exception(e.Message);
         }
     }
