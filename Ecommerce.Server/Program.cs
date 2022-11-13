@@ -9,7 +9,7 @@ using Syncfusion.Blazor;
 var builder = WebApplication.CreateBuilder(args);
 
 // Syncfusion Licence key
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Environment.GetEnvironmentVariable("Syncfusion.Keys.Editor"));
+// builder.Services.Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Environment.GetEnvironmentVariable("Syncfusion.Keys.Editor"));
 
 // Add services to the container.
 builder.Services.AddRazorPages();

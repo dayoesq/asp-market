@@ -108,6 +108,6 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.RichTextEditor.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Spinner.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.SplitButtons.dll
-/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
