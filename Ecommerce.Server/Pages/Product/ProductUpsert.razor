@@ -34,8 +34,8 @@
             
              <div class="form-group">
                 <label>Description</label>
-                <InputTextArea @bind-Value="Product.Description"></InputTextArea> 
-                @* <SfRichTextEditor @bind-Value="Product.Description"></SfRichTextEditor>  *@
+                @* <InputTextArea @bind-Value="Product.Description"></InputTextArea>  *@
+                <SfRichTextEditor @bind-Value="Product.Description"></SfRichTextEditor>
                  <ValidationMessage For="() => Product.Description" />
             </div>
 
@@ -77,8 +77,8 @@
         </EditForm>
         }
     </div>
-    <div class="col-md-2">
-        <img src="@Product.ImageUrl" class="w-100" alt="@Product.Name">
+    <div class="col-md-2 rounded-2">
+        <img src="@Product.ImageUrl" class="w-100 rounded-2" alt="@Product.Name">
     </div>
 </div>
 
@@ -107,13 +107,13 @@
 
     private async Task LoadProduct()
     {
-        IsLoading=true;
+        IsLoading = true;
         StateHasChanged();
         Categories = await CategoryRepository.GetAll();
         if (Id !=0 )
         {
             //update
-            Title="Update";
+            Title = "Update";
             Product = await ProductRepository.Get(Id);
             OldImageUrl = Product.ImageUrl;
         }
