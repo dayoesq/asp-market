@@ -12,6 +12,7 @@
           "Ecommerce.Business": "1.0.0",
           "Ecommerce.DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0-rc.2.22472.11",
+          "Syncfusion.Blazor.Grid": "20.3.0.56",
           "Syncfusion.Blazor.RichTextEditor": "20.3.0.56",
           "Syncfusion.Blazor.Themes": "20.3.0.56"
         },
@@ -537,12 +538,31 @@
           }
         }
       },
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
       "Syncfusion.Blazor.Buttons/20.3.0.56": {
         "dependencies": {
           "Syncfusion.Blazor.Core": "20.3.0.56"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.Blazor.Buttons.dll": {
+            "assemblyVersion": "20.3.0.56",
+            "fileVersion": "20.3.0.56"
+          }
+        }
+      },
+      "Syncfusion.Blazor.Calendars/20.3.0.56": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.3.0.56",
+          "Syncfusion.Blazor.Core": "20.3.0.56",
+          "Syncfusion.Blazor.Inputs": "20.3.0.56",
+          "Syncfusion.Blazor.Lists": "20.3.0.56"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Calendars.dll": {
             "assemblyVersion": "20.3.0.56",
             "fileVersion": "20.3.0.56"
           }
@@ -583,6 +603,27 @@
         },
         "runtime": {
           "lib/net6.0/Syncfusion.Blazor.DropDowns.dll": {
+            "assemblyVersion": "20.3.0.56",
+            "fileVersion": "20.3.0.56"
+          }
+        }
+      },
+      "Syncfusion.Blazor.Grid/20.3.0.56": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.3.0.56",
+          "Syncfusion.Blazor.Calendars": "20.3.0.56",
+          "Syncfusion.Blazor.Core": "20.3.0.56",
+          "Syncfusion.Blazor.Data": "20.3.0.56",
+          "Syncfusion.Blazor.DropDowns": "20.3.0.56",
+          "Syncfusion.Blazor.Inputs": "20.3.0.56",
+          "Syncfusion.Blazor.Navigations": "20.3.0.56",
+          "Syncfusion.Blazor.Popups": "20.3.0.56",
+          "Syncfusion.Blazor.Spinner": "20.3.0.56",
+          "Syncfusion.ExcelExport.Net.Core": "20.3.0.56",
+          "Syncfusion.PdfExport.Net.Core": "20.3.0.56"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Grids.dll": {
             "assemblyVersion": "20.3.0.56",
             "fileVersion": "20.3.0.56"
           }
@@ -695,9 +736,31 @@
           }
         }
       },
+      "Syncfusion.ExcelExport.Net.Core/20.3.0.56": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.ExcelExport.Net.dll": {
+            "assemblyVersion": "20.3.0.56",
+            "fileVersion": "20.3.0.56"
+          }
+        }
+      },
       "Syncfusion.Licensing/20.3.0.56": {
         "runtime": {
           "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.3.0.56",
+            "fileVersion": "20.3.0.56"
+          }
+        }
+      },
+      "Syncfusion.PdfExport.Net.Core/20.3.0.56": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.PdfExport.Net.dll": {
             "assemblyVersion": "20.3.0.56",
             "fileVersion": "20.3.0.56"
           }
@@ -1327,12 +1390,26 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
     "Syncfusion.Blazor.Buttons/20.3.0.56": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oy0FXnSgdFXJAEVmJhBkLa8ulGmwmde2UNyAoHsUjHWCZ58fGmZ5PKtgSTWuwfd+CXn9BgbmZ+C1B6ItpKyqiA==",
       "path": "syncfusion.blazor.buttons/20.3.0.56",
       "hashPath": "syncfusion.blazor.buttons.20.3.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Calendars/20.3.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hy7KZsz0eZxi8G+ktxHijno6BHfVtIk3DYQGu9ooay82kzwfU01Fu3rpazuYqR/VoPVchT37RQ6aG/17FOQ37A==",
+      "path": "syncfusion.blazor.calendars/20.3.0.56",
+      "hashPath": "syncfusion.blazor.calendars.20.3.0.56.nupkg.sha512"
     },
     "Syncfusion.Blazor.Core/20.3.0.56": {
       "type": "package",
@@ -1354,6 +1431,13 @@
       "sha512": "sha512-f0v1CH1npRm4Qscg1oObS2471Fv6l8wH9qMxIa/ty5kOYQ9l8wc5sYXSBjTn3HCAmCtGZ/C0qCRgeXkx9uFZvw==",
       "path": "syncfusion.blazor.dropdowns/20.3.0.56",
       "hashPath": "syncfusion.blazor.dropdowns.20.3.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Grid/20.3.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UYjBatjI9nH/YleGLEpmwnILdkuq3DcSzItBOPKavn5r7tExNqPPKEmrFP7JMr8BZa5k1Jtwh5SMWUx34SZE4Q==",
+      "path": "syncfusion.blazor.grid/20.3.0.56",
+      "hashPath": "syncfusion.blazor.grid.20.3.0.56.nupkg.sha512"
     },
     "Syncfusion.Blazor.Inputs/20.3.0.56": {
       "type": "package",
@@ -1411,12 +1495,26 @@
       "path": "syncfusion.blazor.themes/20.3.0.56",
       "hashPath": "syncfusion.blazor.themes.20.3.0.56.nupkg.sha512"
     },
+    "Syncfusion.ExcelExport.Net.Core/20.3.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VRLLat4jT7t6IuugI3LGhyi0e+ysLgSQ6R7wqGl0QnjfG5L69J0AjFxL5+5t5B5A3kpFAVfuGPm2fklJVra6pg==",
+      "path": "syncfusion.excelexport.net.core/20.3.0.56",
+      "hashPath": "syncfusion.excelexport.net.core.20.3.0.56.nupkg.sha512"
+    },
     "Syncfusion.Licensing/20.3.0.56": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tSym/jpNruSOuvDjheCP8dFjBSjKkfcBSvOU6NgTIHma2r597WrJGK94KXxKPX10YVMtirhlw8WO2DOF+G4Z/A==",
       "path": "syncfusion.licensing/20.3.0.56",
       "hashPath": "syncfusion.licensing.20.3.0.56.nupkg.sha512"
+    },
+    "Syncfusion.PdfExport.Net.Core/20.3.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rE5tI6hzV1h2ZmmJdIvnezeLG6MB1csB1+4YrjNVfqFi68DlCDMiBwGXk3qweXG0J6IrkDh4w34Rv6pSJB+Ltw==",
+      "path": "syncfusion.pdfexport.net.core/20.3.0.56",
+      "hashPath": "syncfusion.pdfexport.net.core.20.3.0.56.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

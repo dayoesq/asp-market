@@ -111,3 +111,7 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.IO.Pipelines.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Calendars.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Grids.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.ExcelExport.Net.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.PdfExport.Net.dll
