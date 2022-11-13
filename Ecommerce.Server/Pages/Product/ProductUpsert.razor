@@ -35,8 +35,7 @@
             
              <div class="form-group">
                 <label>Description</label>
-                @* <InputTextArea @bind-Value="Product.Description"></InputTextArea>  *@
-                <SfRichTextEditor @bind-Value="Product.Description"></SfRichTextEditor>
+                 <SfRichTextEditor @bind-Value="Product.Description"/>
                  <ValidationMessage For="() => Product.Description" />
             </div>
 
@@ -90,7 +89,7 @@
 
     private ProductDto Product { get; set; } = new()
     {
-        ImageUrl="/images/default.jpeg"
+        ImageUrl = "/images/default.jpeg"
     };
     private IEnumerable<CategoryDto> Categories { get; set; } = new List<CategoryDto>();
     private string Title { get; set; } = "Create";
@@ -111,7 +110,7 @@
         IsLoading = true;
         StateHasChanged();
         Categories = await CategoryRepository.GetAll();
-        if (Id !=0 )
+        if (Id != 0 )
         {
             //update
             Title = "Update";
