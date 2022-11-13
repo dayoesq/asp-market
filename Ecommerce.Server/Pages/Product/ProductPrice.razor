@@ -1,0 +1,125 @@
+@page "/product/price/{Id:int}"
+@using Ecommerce.Model
+@using Microsoft.AspNetCore.Components
+@inject IProductPriceRepository ProductPriceRepository
+@inject IProductRepository ProductRepository
+
+<h3 class="card-title text-primary mb-3 ml-3">Product Price Managment</h3>
+ @if (IsLoading)
+{
+   <div class="text-center">
+      <div class="text-center">Loading...</div>
+    </div>
+}
+ else
+ {
+     <div class="row border p-2 mb-4">
+         <div class="col-11">
+             <div class="card-body">
+                 <h4>@Product.Name</h4>
+                 <span>Category : @Product.Category.Name</span> <br/>
+                 Description : <span>@((MarkupString)Product.Description)</span>
+             </div>
+         </div>
+         <div class="col-1">
+             <img src="@Product.ImageUrl" class="w-100">
+         </div>
+     </div>
+     
+     <SfGrid @ref="productPriceGrid" DataSource="@ProductPrices" AllowPaging="true" AllowFiltering="true" AllowSorting="true"
+             Toolbar="@(new List<string>{"Add","Edit","Update","Delete","Cancel"})">
+         <GridEditSettings AllowAdding="true" AllowEditing="true" ShowDeleteConfirmDialog="true" AllowDeleting="true"/>
+         <GridEvents OnActionBegin="ActionHandler" TValue="ProductPriceDto"></GridEvents>
+         <GridFilterSettings Type="FilterType.Menu" ></GridFilterSettings>
+         <GridSortSettings AllowUnsort="false">
+             <GridSortColumns>
+                 <GridSortColumn Field="Price" Direction="SortDirection.Ascending"></GridSortColumn>
+             </GridSortColumns>
+         </GridSortSettings>
+         <GridPageSettings PageSize="5" PageCount="5" PageSizes="true"></GridPageSettings>
+         <GridColumns>
+             <GridColumn IsPrimaryKey="true" AllowAdding="false" Field=@nameof(ProductPriceDto.Id) HeaderText="ID" />
+             <GridColumn Field=@nameof(ProductPriceDto.Size) HeaderText="Size" >
+                 <EditTemplate>
+                     <Syncfusion.Blazor.DropDowns.SfDropDownList 
+                         DataSource="SizeList" 
+                         TItem="string" 
+                         TValue="string" 
+                         @bind-Value="((context as ProductPriceDto).Size)" 
+                         />
+                 </EditTemplate>
+             </GridColumn>
+             <GridColumn Field=@nameof(ProductPriceDto.Price) HeaderText="Price" Format="C2"  ></GridColumn>
+             <GridColumn HeaderText="Manage Records" Width="150">
+                 <GridCommandColumns>
+                     <GridCommandColumn 
+                         Type="CommandButtonType.Edit" 
+                         ButtonOption="@(new CommandButtonOptions { IconCss = "e-icons e-edit", CssClass = "e-flat" })"
+                         />
+                     <GridCommandColumn 
+                         Type="CommandButtonType.Delete" 
+                         ButtonOption="@(new CommandButtonOptions { IconCss = "e-icons e-delete", CssClass = "e-flat" })"
+                         />
+                     <GridCommandColumn 
+                         Type="CommandButtonType.Save" 
+                         ButtonOption="@(new CommandButtonOptions { IconCss = "e-icons e-update", CssClass = "e-flat" })"
+                         />
+                     <GridCommandColumn 
+                         Type="CommandButtonType.Cancel" 
+                         ButtonOption="@(new CommandButtonOptions { IconCss = "e-icons e-cancel-icon", CssClass = "e-flat" })"
+                         />
+                 </GridCommandColumns>
+             </GridColumn>
+         </GridColumns>
+     </SfGrid>
+ }
+
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private ProductDto Product { get; set; }
+    private IEnumerable<ProductPriceDto> ProductPrices { get; set; } = new List<ProductPriceDto>();
+    private bool IsLoading { get; set; } = true;
+    private SfGrid<ProductPriceDto> productPriceGrid;
+
+    IEnumerable<string> SizeList = new List<string>
+    {
+        "Small", "Medium", "Large", "8oz", "16oz", "24oz"
+    };
+
+
+    protected override async void OnAfterRender(bool firstRender)
+    {
+        if (!firstRender) return;
+        IsLoading = true;
+        StateHasChanged();
+        Product = await ProductRepository.Get(Id);
+        ProductPrices = ProductPriceRepository.GetAll(Id);
+        IsLoading = false;
+        StateHasChanged();
+    }
+
+    private async void ActionHandler(ActionEventArgs<ProductPriceDto> args)
+    {
+        if (args.RequestType.Equals(Syncfusion.Blazor.Grids.Action.Save))
+        {
+            args.Data.ProductId = Id;
+            if (args.Action == "Add")
+            {
+                await ProductPriceRepository.Create(args.Data);
+                ProductPrices = ProductPriceRepository.GetAll(Id);
+                await productPriceGrid.Refresh();
+            }
+            if (args.Action == "Edit")
+            {
+                await ProductPriceRepository.Update(args.Data);
+            }
+        }
+        if (!args.RequestType.Equals(Syncfusion.Blazor.Grids.Action.Delete)) return;
+        await ProductPriceRepository.Delete(args.Data.Id);
+        await productPriceGrid.Refresh();
+    }
+
+}
