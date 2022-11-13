@@ -3,7 +3,7 @@ window.ShowToaster = (type, message) => {
         toastr.success(message, "Operation successful", { timeOut: 5000 });
     }
     if(type === "error") {
-        toastr.success(message, "Operation failed", { timeOut: 5000});
+        toastr.error(message, "Operation failed", { timeOut: 5000 });
     }
 };
 

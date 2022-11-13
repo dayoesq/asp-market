@@ -89,12 +89,12 @@
 
     private ProductDto Product { get; set; } = new()
     {
-        ImageUrl="/images/default.png"
+        ImageUrl="/images/default.jpeg"
     };
     private IEnumerable<CategoryDto> Categories { get; set; } = new List<CategoryDto>();
     private string Title { get; set; } = "Create";
     private bool IsLoading { get; set; }
-    // private string OldImageUrl { get; set; }
+    private string? OldImageUrl { get; set; }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -115,7 +115,7 @@
             //update
             Title="Update";
             Product = await ProductRepository.Get(Id);
-            // OldImageUrl = Product.ImageUrl;
+            OldImageUrl = Product.ImageUrl;
         }
 
         IsLoading = false;
@@ -127,18 +127,18 @@
         {
             //create
             await ProductRepository.Create(Product);
-            // await JsRuntime.ToastrSuccess("Product created successfully.");
+            await JsRuntime.ToasterSuccess("Product created successfully.");
         }
         else
         {
             //update
-            // if (OldImageUrl != Product.ImageUrl)
-            // {
-            //     FileUpload.DeleteFile(OldImageUrl);
-            //
-            // }
+             if (OldImageUrl != Product.ImageUrl)
+             {
+                 FileUpload.DeleteFile(OldImageUrl);
+            
+             }
             await ProductRepository.Update(Product);
-            // await JsRuntime.ToastrSuccess("Product updated successfully.");
+            await JsRuntime.ToasterSuccess("Product updated successfully.");
         }
         NavigationManager.NavigateTo("product");
 
@@ -155,9 +155,9 @@
                 foreach (var file in e.GetMultipleFiles())
                 {
                     FileInfo fileInfo = new(file.Name);
-                    if (fileInfo.Extension.ToLower() == ".jpg" ||
-                      fileInfo.Extension.ToLower() == ".png" ||
-                      fileInfo.Extension.ToLower() == ".jpeg")
+                    if (fileInfo.Extension.ToLowerInvariant() == ".jpg" ||
+                      fileInfo.Extension.ToLowerInvariant() == ".png" ||
+                      fileInfo.Extension.ToLowerInvariant() == ".jpeg")
                     {
                         Product.ImageUrl = await FileUpload.UploadFile(file);
                     }

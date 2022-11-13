@@ -6,5 +6,5 @@ public interface IFileUpload
 {
     Task<string> UploadFile(IBrowserFile file);
 
-    bool DeleteFile(string filePath);
+    bool DeleteFile(string? filePath);
 }

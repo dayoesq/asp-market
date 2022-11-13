@@ -12,7 +12,7 @@ public class FileUpload : IFileUpload
         _webHostEnvironment = webHostEnvironment;
     }
 
-    public bool DeleteFile(string filePath)
+    public bool DeleteFile(string? filePath)
     {
         if (!File.Exists(_webHostEnvironment.WebRootPath + filePath)) return false;
         File.Delete(_webHostEnvironment.WebRootPath + filePath);
