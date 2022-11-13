@@ -103,10 +103,10 @@
 
     private async Task LoadProducts()
     {
-        IsLoading=true;
+        IsLoading = true;
         StateHasChanged();
         Products = await ProductRepository.GetAll();
-        IsLoading=false;
+        IsLoading = false;
         StateHasChanged();
     }
 
@@ -123,7 +123,7 @@
         {
             //delete
             ProductDto product = await ProductRepository.Get(DeleteProductId);
-            if (!product.ImageUrl.Contains("default.png"))
+            if (product.ImageUrl != null && !product.ImageUrl.Contains("default.png"))
             {
                 FileUpload.DeleteFile(product.ImageUrl);
 

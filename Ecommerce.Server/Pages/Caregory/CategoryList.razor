@@ -69,10 +69,10 @@
 
     private async Task LoadCategories()
     {
-        IsLoading=true;
+        IsLoading = true;
         StateHasChanged();
         Categories = await CategoryRepository.GetAll();
-        IsLoading=false;
+        IsLoading = false;
         StateHasChanged();
     }
 
@@ -84,7 +84,7 @@
 
     private async Task ConfirmDelete(bool isConfirmed)
     {
-        IsLoading=true;
+        IsLoading = true;
         if(isConfirmed && DeleteCategoryId != 0)
         {
             await CategoryRepository.Delete(DeleteCategoryId);
