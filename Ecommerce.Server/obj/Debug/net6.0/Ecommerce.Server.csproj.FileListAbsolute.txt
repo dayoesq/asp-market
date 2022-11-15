@@ -115,3 +115,7 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.Blazor.Grids.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.ExcelExport.Net.dll
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Syncfusion.PdfExport.Net.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/System.Web.Http.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll

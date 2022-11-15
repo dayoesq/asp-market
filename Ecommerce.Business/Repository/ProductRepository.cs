@@ -70,6 +70,7 @@ public class ProductRepository : IProductRepository
     {
         var obj = await _dbContext.Products
             .Include(a => a.Category)
+            .Include(a => a.ProductPrices)
             .FirstOrDefaultAsync(a => a.Id == id);
         return obj != null ? _mapper.Map<Product, ProductDto>(obj) : new ProductDto();
     }
@@ -78,6 +79,7 @@ public class ProductRepository : IProductRepository
     {
         var categories = await _dbContext.Products
             .Include(a => a.Category)
+            .Include(a => a.ProductPrices)
             .ToListAsync();
         return _mapper.Map<IEnumerable<Product>, IEnumerable<ProductDto>>(categories);
     }

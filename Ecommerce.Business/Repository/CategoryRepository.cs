@@ -1,11 +1,9 @@
-using System.Data;
 using AutoMapper;
 using Ecommerce.Business.Repository.IRepository;
 using Ecommerce.Common.Util;
 using Ecommerce.DataAccess;
 using Ecommerce.DataAccess.Data;
 using Ecommerce.Model;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Business.Repository;

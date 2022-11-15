@@ -29,4 +29,5 @@ public class ProductDto
     
     [ForeignKey("CategoryId")]
     public CategoryDto Category { get; set; }
+    public ICollection<ProductPriceDto> ProductPrices { get; set; }
 }
