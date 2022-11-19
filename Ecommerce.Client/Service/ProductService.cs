@@ -7,27 +7,27 @@ namespace Ecommerce.Client.Service;
 public class ProductService : IProductService
 {
     private readonly HttpClient _httpClient;
-    private IConfiguration _configuration;
-    private string BaseServerUrl;
-    
+    private readonly IConfiguration _configuration;
+    private readonly string _baseServerUrl;
+
     public ProductService(HttpClient httpClient, IConfiguration configuration)
     {
         _httpClient = httpClient;
         _configuration = configuration;
-        BaseServerUrl = _configuration.GetSection("BaseServerUrl").Value;
+        _baseServerUrl = _configuration.GetSection("BaseServerUrl").Value;
 
     }
-    
+
     public async Task<IEnumerable<ProductDto>> GetAll()
     {
-        var response = await _httpClient.GetAsync("/api/Product");
+        var response = await _httpClient.GetAsync("/api/product");
         if (!response.IsSuccessStatusCode) return new List<ProductDto>();
         var content = await response.Content.ReadAsStringAsync();
         var products = JsonConvert.DeserializeObject<IEnumerable<ProductDto>>(content);
         var productDtos = products.ToList();
-        foreach(var prod in productDtos)
+        foreach (var prod in productDtos)
         {
-            prod.ImageUrl = BaseServerUrl + prod.ImageUrl;
+            prod.ImageUrl = _baseServerUrl + prod.ImageUrl;
         }
         return productDtos;
 

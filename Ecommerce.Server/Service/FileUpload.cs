@@ -34,6 +34,6 @@ public class FileUpload : IFileUpload
         await file.OpenReadStream().CopyToAsync(fs);
 
         return $"/images/product/{fileName}";
-        
+
     }
-} 
+}

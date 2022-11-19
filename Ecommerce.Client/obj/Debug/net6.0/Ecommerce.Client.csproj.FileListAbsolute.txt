@@ -829,3 +829,16 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/RRJ6NpqS.gz
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/loS2Xfby.gz
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/ug3Zd8Oa.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/Blazored.LocalStorage.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/GPa3Py5l.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.pdb.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.dll.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/Ecommerce.Common.dll
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/Ecommerce.Common.pdb
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/djtsTtGT.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/7eyIYXlf.gz
+/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/appsettings.json

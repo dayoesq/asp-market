@@ -13,7 +13,7 @@ public class ProductPriceRepository : IProductPriceRepository
     private readonly ApplicationDbContext _dbContext;
     private readonly IMapper _mapper;
     private readonly ILogger<ProductPriceRepository> _logger;
-    
+
     public ProductPriceRepository(ApplicationDbContext dbContext, IMapper mapper, ILogger<ProductPriceRepository> logger)
     {
         _dbContext = dbContext;
@@ -38,14 +38,14 @@ public class ProductPriceRepository : IProductPriceRepository
         }
     }
 
-    public  IEnumerable<ProductPriceDto> GetAll(int? id = null)
+    public IEnumerable<ProductPriceDto> GetAll(int? id = null)
     {
         try
         {
             if (id != null && id > 0)
             {
                 return _mapper.Map<IEnumerable<ProductPrice>, IEnumerable<ProductPriceDto>>
-                    (_dbContext.ProductPrices.Where(a=> a.ProductId == id));
+                    (_dbContext.ProductPrices.Where(a => a.ProductId == id));
             }
             return _mapper.Map<IEnumerable<ProductPrice>, IEnumerable<ProductPriceDto>>(_dbContext.ProductPrices);
         }
@@ -78,7 +78,7 @@ public class ProductPriceRepository : IProductPriceRepository
             if (obj == null) return productPriceDto;
             obj.Price = productPriceDto.Price;
             obj.Size = productPriceDto.Size;
-            obj.ProductId= productPriceDto.ProductId;
+            obj.ProductId = productPriceDto.ProductId;
             _dbContext.ProductPrices.Update(obj);
             await _dbContext.SaveChangesAsync();
             return _mapper.Map<ProductPrice, ProductPriceDto>(obj);

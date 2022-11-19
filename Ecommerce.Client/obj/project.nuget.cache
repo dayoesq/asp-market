@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HcSmdKNc7fPIvKcdRdVcEpNNJXBRMMq0Z6vFwUnj8QbLxYmtbLtIZVsKJoRSD2QSYLAGqijgS5joMIXKoNnIBA==",
+  "dgSpecHash": "rH+4XWKe80R64Fni/NtxrMxiN7XtFAi9ClfZJssXsmAO6sSmrhw9m7x7oC1HysY2xECDQTJLkEQ3OJAvN1KZGQ==",
   "success": true,
   "projectFilePath": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/Ecommerce.Client.csproj",
   "expectedPackageFiles": [
+    "/Users/oladapooladayoolalekan/.nuget/packages/blazored.localstorage/4.3.0/blazored.localstorage.4.3.0.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.aspnetcore.components/6.0.8/microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
     "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.8/microsoft.aspnetcore.components.analyzers.6.0.8.nupkg.sha512",

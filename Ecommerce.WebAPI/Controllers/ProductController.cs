@@ -20,7 +20,7 @@ public class ProductController : ControllerBase
     {
         return Ok(await _productRepository.GetAll());
     }
-    
+
     [HttpGet("{productId:int}")]
     public async Task<IActionResult> GetAll(int? productId)
     {
@@ -37,6 +37,6 @@ public class ProductController : ControllerBase
 
         return Ok(product);
     }
-    
-    
+
+
 }

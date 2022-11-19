@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Blazored.LocalStorage/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -1126,6 +1138,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Ecommerce.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Common.dll": {}
+        }
+      },
       "Ecommerce.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1141,6 +1163,18 @@
       }
     },
     "net6.0/browser-wasm": {
+      "Blazored.LocalStorage/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -2415,6 +2449,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Ecommerce.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Common.dll": {}
+        }
+      },
       "Ecommerce.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2431,6 +2475,20 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/4.3.0": {
+      "sha512": "CfHp9SWN45cM/TM8uw4pELQBfCRtMssCMSOjsEXVWibeYBn36TLpzw+J1vsC2Su2BEQ3Et19A5+GqK1S3kHbTQ==",
+      "type": "package",
+      "path": "blazored.localstorage/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.4.3.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.8": {
       "sha512": "rDLMah6FOtFoC5uWDxnevcH/FqEs+APgmTqEvcLj3OU6Y/X8M5ASm/EdlQh6B+Z2XsQW5xu+K8tyn7w7OgOX8A==",
       "type": "package",
@@ -5714,6 +5772,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Ecommerce.Common/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Common/Ecommerce.Common.csproj",
+      "msbuildProject": "../Ecommerce.Common/Ecommerce.Common.csproj"
+    },
     "Ecommerce.Model/1.0.0": {
       "type": "project",
       "path": "../Ecommerce.Model/Ecommerce.Model.csproj",
@@ -5722,6 +5785,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blazored.LocalStorage >= 4.3.0",
+      "Ecommerce.Common >= 1.0.0",
       "Ecommerce.Model >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8",
@@ -5754,6 +5819,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/Ecommerce.Common.csproj": {
+              "projectPath": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/Ecommerce.Common.csproj"
+            },
             "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Model/Ecommerce.Model.csproj": {
               "projectPath": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Model/Ecommerce.Model.csproj"
             }
@@ -5770,6 +5838,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.8, )"

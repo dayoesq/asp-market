@@ -9,5 +9,5 @@ public interface ICategoryRepository
     Task<CategoryDto> Get(int id);
     Task<CategoryDto> Update(CategoryDto categoryDto);
     Task<int> Delete(int id);
-    
+
 }

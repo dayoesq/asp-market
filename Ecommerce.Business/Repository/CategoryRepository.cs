@@ -45,7 +45,7 @@ public class CategoryRepository : ICategoryRepository
         return _mapper.Map<Category, CategoryDto>(obj);
 
     }
-    
+
     public async Task<int> Delete(int id)
     {
         var obj = await _dbContext.Categories.FirstOrDefaultAsync(a => a.Id == id);

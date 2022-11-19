@@ -17,7 +17,7 @@ Syncfusion.Licensing.SyncfusionLicenseProvider
 builder.Services.AddRazorPages();
 builder.Services.AddSyncfusionBlazor();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

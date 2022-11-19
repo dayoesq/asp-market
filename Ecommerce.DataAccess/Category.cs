@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.DataAccess;
 
-[Index(nameof(Name), IsUnique=true)]
+[Index(nameof(Name), IsUnique = true)]
 public class Category
 {
     public int Id { get; set; }

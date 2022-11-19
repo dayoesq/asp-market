@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hIw8Bux7ew1duuZxyVyMrsrQXOmVQvIrHyHwgXm6N00=",
+  "Hash": "MWW+QsPDwNSn36PcAW12lnF9kG7n5zSpH/LBlRsQess=",
   "Source": "Ecommerce.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.8/build/net6.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/.nuget/packages/blazored.localstorage/4.3.0/lib/net6.0/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.8.plw3p8465p.js",
@@ -134,6 +151,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net6.0/Ecommerce.Client.pdb"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.dll",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Ecommerce.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/bin/Debug/net6.0/Ecommerce.Common.dll"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.pdb",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Ecommerce.Common.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Common/bin/Debug/net6.0/Ecommerce.Common.pdb"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Model.dll",
@@ -3842,6 +3893,23 @@
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Xml.dll"
     },
     {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/7eyIYXlf.gz",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Ecommerce.Common.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.pdb"
+    },
+    {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/7Ncdfmk3.gz",
       "SourceId": "Ecommerce.Client",
       "SourceType": "Computed",
@@ -4403,6 +4471,23 @@
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Csp.dll"
     },
     {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/djtsTtGT.gz",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Ecommerce.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Ecommerce.Common.dll"
+    },
+    {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/DotCShpB.gz",
       "SourceId": "Ecommerce.Client",
       "SourceType": "Computed",
@@ -4775,6 +4860,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/GPa3Py5l.gz",
+      "SourceId": "Ecommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/GSJ5PXpr.gz",
@@ -6970,23 +7072,6 @@
       "OriginalItemSpec": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/scopedcss/projectbundle/Ecommerce.Client.bundle.scp.css"
     },
     {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/appsettings.json",
-      "SourceId": "Ecommerce.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "appsettings.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "settings",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/appsettings.json"
-    },
-    {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/css/app.css",
       "SourceId": "Ecommerce.Client",
       "SourceType": "Discovered",
@@ -7191,40 +7276,6 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/favicon.ico",
-      "SourceId": "Ecommerce.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
-    },
-    {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/icon-192.png",
-      "SourceId": "Ecommerce.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "icon-192.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/icon-192.png"
-    },
-    {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/index.html",
       "SourceId": "Ecommerce.Client",
       "SourceType": "Discovered",
@@ -7257,23 +7308,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/common.js"
-    },
-    {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/sample-data/weather.json",
-      "SourceId": "Ecommerce.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }
