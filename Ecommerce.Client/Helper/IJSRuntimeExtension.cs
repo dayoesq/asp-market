@@ -2,7 +2,7 @@ using Microsoft.JSInterop;
 
 namespace Ecommerce.Client.Helper;
 
-public static class IJSRuntimeExtension
+public static class IjsRuntimeExtension
 {
     public static async ValueTask ToasterSuccess(this IJSRuntime jsRuntime, string message)
     {

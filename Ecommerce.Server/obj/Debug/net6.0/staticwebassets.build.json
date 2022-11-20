@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QpcCkmkOpz70gWRcP/XqwDAJ0hLsxrmlzC2UPkqLC1g=",
+  "Hash": "vlLKBcVLmsCcbglGIYZcI6EDVyyhjAfdtN3vK8glFE8=",
   "Source": "Ecommerce.Server",
   "BasePath": "_content/Ecommerce.Server",
   "Mode": "Default",
@@ -1377,12 +1377,12 @@
       "OriginalItemSpec": "wwwroot/images/product/36b0f8e5-bdda-44c5-a966-e0a6b7c5fa7f.jpg"
     },
     {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/be8de66b-a546-4f33-a024-abcadbee10d2.jpeg",
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/ad32da95-6e00-44ca-beb1-16a41eca87b9.jpeg",
       "SourceId": "Ecommerce.Server",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
       "BasePath": "_content/Ecommerce.Server",
-      "RelativePath": "images/product/be8de66b-a546-4f33-a024-abcadbee10d2.jpeg",
+      "RelativePath": "images/product/ad32da95-6e00-44ca-beb1-16a41eca87b9.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1391,15 +1391,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/product/be8de66b-a546-4f33-a024-abcadbee10d2.jpeg"
+      "OriginalItemSpec": "wwwroot/images/product/ad32da95-6e00-44ca-beb1-16a41eca87b9.jpeg"
     },
     {
-      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/cbaf80cc-9c7b-44d1-8202-e0bce9bb90a8.jpeg",
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/d56cb1ba-3851-497a-b9b4-5a849e72cb7d.png",
       "SourceId": "Ecommerce.Server",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
       "BasePath": "_content/Ecommerce.Server",
-      "RelativePath": "images/product/cbaf80cc-9c7b-44d1-8202-e0bce9bb90a8.jpeg",
+      "RelativePath": "images/product/d56cb1ba-3851-497a-b9b4-5a849e72cb7d.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,7 +1408,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/product/cbaf80cc-9c7b-44d1-8202-e0bce9bb90a8.jpeg"
+      "OriginalItemSpec": "wwwroot/images/product/d56cb1ba-3851-497a-b9b4-5a849e72cb7d.png"
+    },
+    {
+      "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/d5ee8a77-e9d4-4a2f-b911-bf533d4c5d72.jpg",
+      "SourceId": "Ecommerce.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/",
+      "BasePath": "_content/Ecommerce.Server",
+      "RelativePath": "images/product/d5ee8a77-e9d4-4a2f-b911-bf533d4c5d72.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/product/d5ee8a77-e9d4-4a2f-b911-bf533d4c5d72.jpg"
     },
     {
       "Identity": "/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Server/wwwroot/images/product/dd4e9fa3-0a3e-4f83-b78c-f467b01e79cb.jpeg",
