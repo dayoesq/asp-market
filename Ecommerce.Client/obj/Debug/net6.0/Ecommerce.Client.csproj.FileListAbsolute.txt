@@ -841,4 +841,3 @@
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/Ecommerce.Common.pdb
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/djtsTtGT.gz
 /Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/obj/Debug/net6.0/build-gz/7eyIYXlf.gz
-/Users/oladapooladayoolalekan/Projects/Ecommerce/Ecommerce.Client/bin/Debug/net6.0/appsettings.json
